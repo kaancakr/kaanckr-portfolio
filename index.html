@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello dev!</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/onat.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/kaan.jpg" alt="Eren Kaan Çakır" width="80"
+            style="border-radius: 15%; margin-top: -15px;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Eren Kaan Çakır">Eren Kaan Çakır</h1>
+
+          <div style="display: flex; flex-wrap: wrap;">
+            <p class="title" style="margin-left: 2px;margin-right: 2px; flex-shrink: 0; margin-top: 4px;">Front-End
+              Developer</p>
+            <p class="title" style="margin-left: 2px;margin-right: 2px; flex-shrink: 0; margin-top: 4px;">Mobile
+              Developer</p>
+            <p class="title" style="margin-left: 2px;margin-right: 2px; flex-shrink: 0; margin-top: 4px;">Junior</p>
+            <p class="title" style="margin-left: 2px;margin-right: 2px; flex-shrink: 0; margin-top: 4px;">Software
+              Engineering Student</p>
+          </div>
+        </div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:erenkaancakr@gmail.com" class="contact-link">erenkaancakr@gmail.com</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ankara, Turkey</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/kaanckr" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/eren-kaan-%C3%A7ak%C4%B1r-0b4312229/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Software Engineering student at TED University, I am pursuing my passion for creating innovative and
+            user-friendly applications. I have a strong foundation in JavaScript, Swift, and various JavaScript
+            frameworks, which I have applied in multiple projects and internships. </p>
+
+          <p>
+            Currently, I am working as a Research Assistant at Ankara Science University, where I am developing a user
+            friendly mobile application for a scientific research project using React Native. I am also improving my
+            English skills, which I have certified at the C1 level. My goal is to specialize in Front-End Development
+            and contribute to the advancement of technology. </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+
+                <p class="service-item-text">
+                  I am currently working on mobile application development with using React-Native. And I made Optima
+                  ALPR app for my internship company
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  At the start of my career I made a lot of project on web. Now I am currently working on Unilocked
+                  named startup. And I am making the UI/UX design and also Front-End development on this project.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend & API</h4>
+
+                <p class="service-item-text">
+                  I am trying to provide the APIs and connections to these APIs that I have been using in my projects
+                  for a long time in the most efficient way.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Databases & Data Modeling</h4>
+
+                <p class="service-item-text">
+                  My experience primarily revolves around Postgresql and Oracle. I frequently resort to these
+                  technologies in my projects. I also use MongoDB as a NoSQL solution.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div> -->
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Services & Deployment</h4>
+                <p class="service-item-text">
+                  I primarily use Google Cloud for my projects. App Functions, VM Instances, and Big Query are the tools
+                  I use most frequently.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Cem Harun Meydan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cem Harun Meydan</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <div style="display: flex; align-items: center;">
+                    <p style="margin-right: 10px; margin-top: 5px; margin-bottom: 5px;"><strong> Vice Rector at Ankara
+                        Science University</strong>.</p>
+                    <ul class="social-item">
+                      <li>
+                        <a target="_blank" href="https://www.linkedin.com/" class="social-link" target="_blank">
+                          <ion-icon name="logo-linkedin" style="margin-top: 5px;margin-bottom: 5px;"></ion-icon>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate deserunt numquam ratione tenetur
+                    cupiditate delectus ullam. Totam dolores aspernatur numquam, perspiciatis pariatur doloribus laborum
+                    vitae mollitia tempore, odit, quis facilis?
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <!--
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Safa Bağcı" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Safa Bağcı</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <div style="display: flex; align-items: center;">
+                    <p style="margin-right: 10px; margin-top: 5px; margin-bottom: 5px;"><strong> Senior Test Engineer at
+                        OBSS</strong>.</p>
+                    <ul class="social-item">
+                      <li>
+                        <a target="_blank" href="https://www.linkedin.com/" class="social-link" target="_blank">
+                          <ion-icon name="logo-linkedin" style="margin-top: 5px;margin-bottom: 5px;"></ion-icon>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate deserunt numquam ratione tenetur
+                    cupiditate delectus ullam. Totam dolores aspernatur numquam, perspiciatis pariatur doloribus laborum
+                    vitae mollitia tempore, odit, quis facilis?
+                  </p>
+                </div>
+              </div>
+            </li>
+          -->
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-5.png" alt="Safa Bağcı" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Safa Bağcı</h4>
+              <!-- <li class="social-item">
+                <a href="#https://google" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li> -->
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis hic suscipit laborum ea obcaecati
+                  iure nostrum accusamus saepe dicta similique, molestiae a qui animi! Sunt distinctio voluptas
+                  aspernatur odit sequi.
+                </p>
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </section>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!--
+          - Certificates
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certificates</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a target="_blank"
+                href="https://coursera.org/share/783200dac4b595e9e152404408d7b12e">
+                <img
+                  src="./assets/images/Certificates/coursera_react.png"
+                  alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a target="_blank"
+                href="https://coursera.org/share/dad7de335b1f24ef86b5c34508bfd1f7">
+                <img
+                  src="./assets/images/Certificates/meta_js.png"
+                  alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a target="_blank" href="https://coursera.org/share/f7a69d87a4f373bfaaa68eced12a5c91">
+                <img src="./assets/images/Certificates/meta_swift.png"
+                  alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TED University</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Software Engineering
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRP Research Assistant</h4>
+              <span>Ankara Science University</span>
+              <span>(Feb 2024 - Present)</span>
+
+              <p class="timeline-text">
+                Experiences:<br>
+                ABUN App NLP Chat Bot,<br>
+                React-Native Interface Design,<br>
+                User Interface,<br>
+                Database Management<br>
+                Cloud Services,<br>
+                Node JS,<br>
+                Real Time Chat,<br>
+                API Services<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Intern</h4>
+
+              <span>Optima Soft</span>
+              <span>(June 2023 - September 2023)</span>
+
+              <p class="timeline-text">
+                Experiences:<br>
+                JavaScript,<br>
+                SQL,<br>
+                Node JS,<br>
+                React-Native,<br>
+                API Control,<br>
+                Interactive User Interface,<br>
+                MySQL Database,<br>
+                Postgresql Database,<br>
+                Multiplatform Build<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front-End Developer</h4>
+              <span>Unilocked(Startup)</span>
+              <span>(Oct 2022 - ~)</span>
+
+              <p class="timeline-text">
+                Experiences:<br>
+                Angular JS,<br>
+                Node JS,<br>
+                TypeScript<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>APIs & Backend</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>NLP & Chat-Bots</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineering</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>GUI</button>
+            </li>        
+            
+            <li class="filter-item">
+              <button data-filter-btn>Web Scraping</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cloud</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select style="display: none;">
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>APIs & Frontend</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>NLP & ChatBots</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>Data Engineering</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>React Native User Interface</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>Angular</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-btn>TypeScript</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Web Scraping">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ABU Official Collage App</h3>
+                <p class="project-category">React Native User Interface</p>
+                <p class="project-category">APIs & Frontend</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="GUI">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Terror Mapping" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ABU Official Chatbot</h3>
+
+                <p class="project-category">React Native User Interface</p>
+                <p class="project-category">APIs & Frontend</p>
+                <p class="project-category">NLP & ChatBots</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="GUI">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Terror Mapping" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dev App</h3>
+
+                <p class="project-category">React Native User Interface</p>
+                <p class="project-category">APIs & Frontend</p>
+                <p class="project-category">Real Time Data Flow</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Unilocked</h3>
+                <p class="project-category">APIs & Frontend</p>
+                <p class="project-category">Angular</p>
+                <p class="project-category">TypeScript</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">My Journey</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <p class="blog-category">web</p>
+
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-3">Fab 2, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    architecto
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    architecto
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+
+
+
+
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.7199739243!2d32.76276475!3d39.903376550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1711044009986!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391769.4399478485!2d32.762764750000024!3d39.90337655000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1711048792973!5m2!1str!2str"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

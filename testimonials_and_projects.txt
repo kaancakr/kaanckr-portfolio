@@ -1,0 +1,31 @@
+cem harun meydan
+safa bağcı
+Ahmet Samet Yüzlü
+güney gürsel
+Sina Bağcı
+Feridun Toy
+Handan Akkaş
+Halit Ayanlı
+Hilmi Bahadır Temur
+
+
+
+
+
+_______________________________
+
+
+
+
+ABU App --> APIs & Backend 
+ABU NLP --> NLP & Chat-Bots 
+Terör Haritalama --> GUI 
+Amazon Web Scraping & NLP --> Data Engineering
+Twitter Scraper --> Web Scraping
+ABUN Telegram Bot --> NLP & Chat-Bots
+End-to-End Encryption --> APIs & Backend 
+Spotify ETL Pipeline --> Data Engineering
+Color Harmony App --> APIs & Backend 
+Car Dealer Ship --> APIs & Backend 
+
+E-Pharmacy --> Web Scraping
